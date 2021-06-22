@@ -1,0 +1,63 @@
+body {
+  background-color: #666;
+}
+
+#mybutton {
+  display: inline-block;
+  padding: 1em 1.2em;
+  border: 0.2em solid #ffffff;
+  margin: 0.5em;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: transparent;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+#mybutton:hover {
+  color: #000000;
+  border-color: #000000;
+}
+
+@media all and (max-width: 30em) {
+  #mybutton {
+    display: block;
+    margin: 0.4em auto;
+  }
+  .backgroundButton {
+    display: block;
+    margin: 0.4em auto;
+  }
+}
+
+.backgroundButton {
+  display: inline-block;
+  padding: 1em 1.2em;
+  border: 0.2em solid #ffffff;
+  margin: 0.5em;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.backgroundButton:hover {
+  color: #000000;
+  border-color: #000000;
+}
+
+.blue-background {
+  background-color: blue;
+}
+
+.red-background {
+  background-color: red;
+}
